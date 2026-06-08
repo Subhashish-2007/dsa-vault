@@ -168,7 +168,7 @@ function Collection() {
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-orange-500 px-5 py-4 text-white">
+              <div className="rounded-2xl bg-orange-500/70 px-5 py-4 text-white">
                 <p className="text-sm font-semibold text-orange-100">
                   Progress
                 </p>
@@ -195,7 +195,7 @@ function Collection() {
                 }`}
               >
                 <div
-                  className="h-full rounded-full bg-orange-500 transition-all duration-300"
+                  className="h-full rounded-full bg-green-500/70 transition-all duration-300"
                   style={{ width: `${completion}%` }}
                 />
               </div>
@@ -233,7 +233,7 @@ function Collection() {
 
                 <button
                   onClick={addProblem}
-                  className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-orange-500 px-5 text-sm font-bold text-white shadow-lg shadow-orange-200/50 transition hover:bg-orange-600"
+                  className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-orange-500/70 px-5 text-sm font-bold text-white  transition hover:bg-orange-600"
                 >
                   <FiPlus />
                   Add Problem

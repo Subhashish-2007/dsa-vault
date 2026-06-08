@@ -170,7 +170,7 @@ function Practice() {
 
                 <button
                   onClick={createCollection}
-                  className="flex min-h-11 items-center gap-2 rounded-xl bg-orange-500 px-5 text-sm font-bold text-white shadow-lg shadow-orange-200/50 transition hover:bg-orange-600"
+                  className="flex min-h-11 items-center gap-2 rounded-xl bg-orange-500 px-5 text-sm font-bold text-white transition hover:bg-orange-600"
                 >
                   <FiPlus />
                   Create
