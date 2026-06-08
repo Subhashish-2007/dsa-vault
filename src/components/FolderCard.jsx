@@ -60,7 +60,7 @@ function FolderCard({ collection, onDelete }) {
           }`}
         >
           <div
-            className="h-full rounded-full bg-orange-500"
+            className="h-full rounded-full bg-green-500/70"
             style={{
               width: `${total === 0 ? 0 : (solved / total) * 100}%`,
             }}

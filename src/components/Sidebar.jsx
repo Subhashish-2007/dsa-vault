@@ -14,7 +14,7 @@ function Sidebar() {
       }`}
     >
       <div>
-        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-500 text-xl font-black text-white shadow-lg shadow-orange-300/40">
+        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-500/70 text-xl font-black ">
           DV
         </div>
 
